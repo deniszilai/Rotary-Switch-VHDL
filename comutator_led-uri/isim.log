@@ -1,0 +1,85 @@
+ISim log file
+Running: D:\Andrei\Anul_3\Semestrul_I\Structura_Sistemelor_de_Calcul\Proiect-Interfata_pentru_un_comutator_rotativ\comutator_led-uri\demo_leduri_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri_isim_beh.wdb 
+ISim O.87xd (signature 0xc3576ebc)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# isim force add /demo_leduri/rotary_press 0 -radix bin
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+ISim O.87xd (signature 0xc3576ebc)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /demo_leduri/clk 1 -radix bin -value 0 -radix bin -time 25 us -repeat 50 us
+# isim force add /demo_leduri/clk 1 -radix bin -value 0 -radix bin -time 25 us -repeat 50 us
+# isim force add /demo_leduri/clk 1 -radix bin -value 0 -radix bin -time 25 us -repeat 50 us
+# isim force add /demo_leduri/clk 1 -radix bin -value 0 -radix bin -time 25 us -repeat 50 us
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# isim force add /demo_leduri/rotary_press 0 -radix bin
+# isim force add /demo_leduri/rotary_press 0 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /demo_leduri/rotary_a 0 -radix bin
+# isim force add /demo_leduri/rotary_a 0 -radix bin
+# isim force add /demo_leduri/rotary_b 1 -radix bin
+# isim force add /demo_leduri/rotary_b 1 -radix bin
+# run 1.00us
+# isim force add /demo_leduri/clk 1 -radix bin -value 0 -radix bin -time 500 ns -repeat 1 us
+# isim force add /demo_leduri/clk 1 -radix bin -value 0 -radix bin -time 500 ns -repeat 1 us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /demo_leduri/rotary_b 1 -radix bin
+# isim force add /demo_leduri/rotary_b 1 -radix bin
+# run 1.00us
+# isim force add /demo_leduri/rotary_a 0 -radix bin
+# isim force add /demo_leduri/rotary_a 0 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# isim force add /demo_leduri/rotary_a 1 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# isim force add /demo_leduri/rotary_b 0 -radix bin
+# run 1.00us
+# run 1.00us

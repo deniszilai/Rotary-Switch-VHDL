@@ -1,0 +1,26 @@
+V3 14
+FL C:/Users/DZ/Desktop/comutator_led-uri/demo_led-uri.vhd 2022/01/12.00:45:04 O.87xd
+FL C:/Users/DZ/Desktop/lcd_ctrl.vhd 2012/02/16.13:47:26 O.87xd
+FL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd 2022/01/12.00:45:04 O.87xd
+EN work/demo_leduri 1641942621 \
+      FL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880
+AR work/demo_leduri/Behavioral 1641942622 \
+      FL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd \
+      EN work/demo_leduri 1641942621 CP lcd_ctrl
+FL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd 2012/02/16.13:47:26 O.87xd
+EN work/lcd_ctrl 1641942619 \
+      FL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/lcd_ctrl/Behavioral 1641942620 \
+      FL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd \
+      EN work/lcd_ctrl 1641942619
+FL D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/debounce.vhd 2022/01/06.00:01:49 O.87xd
+EN work/debounce 1641497056 \
+      FL D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/debounce.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/debounce/Behavioral 1641497057 \
+      FL D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/debounce.vhd \
+      EN work/debounce 1641497056
+FL D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_led-uri.vhd 2022/01/08.20:34:00 O.87xd

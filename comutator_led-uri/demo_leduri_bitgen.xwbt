@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\DZ\Desktop\Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238\comutator_led-uri\demo_leduri.ncd
+OUTFILE=C:\Users\DZ\Desktop\Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238\comutator_led-uri\demo_leduri.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\DZ\Desktop\Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238\comutator_led-uri
+LICENSE=WebPack
+USER_INFO=212150342_0_0_074

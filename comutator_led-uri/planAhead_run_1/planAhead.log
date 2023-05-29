@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Sun Nov 21 22:28:33 2021
+# Process ID: 17384
+# Log file: D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/planAhead_run_1/planAhead.log
+# Journal file: D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\arch.xmlParsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/pa.fromNetlist.tcl
+# create_project -name comutator_led-uri -dir "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/planAhead_run_1" -part xc3s500efg320-4
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "demo_leduri.ucf" [current_fileset -constrset]
+Adding file 'D:\Andrei\Anul_3\Semestrul_I\Structura_Sistemelor_de_Calcul\Proiect-Interfata_pentru_un_comutator_rotativ\comutator_led-uri\demo_leduri.ucf' to fileset 'constrs_1'
+# add_files [list {demo_leduri.ucf}] -fileset [get_property constrset [current_run]]
+# open_netlist_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to part: xc3s500efg320-4
+Qt: Untested Windows version 6.2 detected!
+Release 13.4 - ngc2edif O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design demo_leduri.ngc ...
+WARNING:NetListWriters:298 - No output is written to demo_leduri.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file demo_leduri.edif ...
+ngc2edif: Total memory usage is 4317424 kilobytes
+
+Parsing EDIF File [.\planAhead_run_1\comutator_led-uri.data\cache\demo_leduri_ngc_beea0fc5.edif]
+Finished Parsing EDIF File [.\planAhead_run_1\comutator_led-uri.data\cache\demo_leduri_ngc_beea0fc5.edif]
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing-77] Reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing-34] Done reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [D:\Andrei\Anul_3\Semestrul_I\Structura_Sistemelor_de_Calcul\Proiect-Interfata_pentru_un_comutator_rotativ\comutator_led-uri\demo_leduri.ucf]
+Finished Parsing UCF File [D:\Andrei\Anul_3\Semestrul_I\Structura_Sistemelor_de_Calcul\Proiect-Interfata_pentru_un_comutator_rotativ\comutator_led-uri\demo_leduri.ucf]
+INFO: [PlanAhead-566] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (HD_IBUFG, HD_BUFG): 1 instances
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

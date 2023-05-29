@@ -1,0 +1,552 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: demo_leduri.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "demo_leduri.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "demo_leduri"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : demo_leduri
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd" in Library work.
+Architecture behavioral of Entity lcd_ctrl is up to date.
+Compiling vhdl file "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd" in Library work.
+Architecture behavioral of Entity demo_leduri is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <demo_leduri> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <lcd_ctrl> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <demo_leduri> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd" line 85: Mux is complete : default of case is discarded
+INFO:Xst:2679 - Register <lcd> in unit <demo_leduri> has a constant value of 0100111101001110100000001000000010000000100000001000000010000000 during circuit operation. The register is replaced by logic.
+Entity <demo_leduri> analyzed. Unit <demo_leduri> generated.
+
+Analyzing Entity <lcd_ctrl> in library <work> (Architecture <behavioral>).
+Entity <lcd_ctrl> analyzed. Unit <lcd_ctrl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <lcd_ctrl>.
+    Related source file is "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd".
+    Found finite state machine <FSM_0> for signal <init_state>.
+    -----------------------------------------------------------------------
+    | States             | 11                                             |
+    | Transitions        | 21                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 16                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | init_idle                                      |
+    | Power Up State     | init_idle                                      |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <displ_state>.
+    -----------------------------------------------------------------------
+    | States             | 16                                             |
+    | Transitions        | 31                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 18                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | displ_init                                     |
+    | Power Up State     | displ_init                                     |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <wr_state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | wr_idle                                        |
+    | Power Up State     | wr_idle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 25-bit up counter for signal <blink_cnt>.
+    Found 1-bit register for signal <blink_on>.
+    Found 17-bit register for signal <displ_cnt>.
+    Found 17-bit adder for signal <displ_cnt$addsub0000> created at line 135.
+    Found 20-bit register for signal <init_cnt>.
+    Found 20-bit adder for signal <init_cnt$share0000> created at line 387.
+    Found 11-bit register for signal <wr_cnt>.
+    Found 11-bit adder for signal <wr_cnt$share0000> created at line 298.
+    Summary:
+	inferred   3 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  49 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+Unit <lcd_ctrl> synthesized.
+
+
+Synthesizing Unit <demo_leduri>.
+    Related source file is "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd".
+    Found 8-bit register for signal <led>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 8-bit register for signal <led_drive>.
+    Found 8-bit register for signal <led_pattern>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_press_in>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 73.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 73.
+    Summary:
+	inferred  34 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <demo_leduri> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 11-bit adder                                          : 1
+ 17-bit adder                                          : 1
+ 20-bit adder                                          : 1
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 16
+ 1-bit register                                        : 9
+ 11-bit register                                       : 1
+ 17-bit register                                       : 1
+ 2-bit register                                        : 1
+ 20-bit register                                       : 1
+ 8-bit register                                        : 3
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <lcd_ctrl_i/wr_state/FSM> on signal <wr_state[1:8]> with one-hot encoding.
+------------------------
+ State      | Encoding
+------------------------
+ wr_idle    | 00000001
+ high_setup | 00000010
+ high_hold  | 00000100
+ delay_1us  | 00001000
+ low_setup  | 00010000
+ low_hold   | 00100000
+ delay_40us | 01000000
+ wr_done    | 10000000
+------------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <lcd_ctrl_i/displ_state/FSM> on signal <displ_state[1:16]> with one-hot encoding.
+------------------------------------
+ State          | Encoding
+------------------------------------
+ displ_init     | 0000000000000001
+ function_set   | 0000000000000010
+ entry_mode_set | 0000000000000100
+ displ_on_off   | 0000000000001000
+ displ_clear    | 0000000000010000
+ pause          | 0000000000100000
+ set_address    | 0000000001000000
+ displ_done     | 1000000000000000
+ displ_ch1      | 0000000010000000
+ displ_ch2      | 0000000100000000
+ displ_ch3      | 0000001000000000
+ displ_ch4      | 0000010000000000
+ displ_ch5      | 0000100000000000
+ displ_ch6      | 0001000000000000
+ displ_ch7      | 0010000000000000
+ displ_ch8      | 0100000000000000
+------------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <lcd_ctrl_i/init_state/FSM> on signal <init_state[1:11]> with one-hot encoding.
+--------------------------
+ State     | Encoding
+--------------------------
+ init_idle | 00000000001
+ st_init1  | 00000000010
+ st_init2  | 00000000100
+ st_init3  | 00000001000
+ st_init4  | 00000010000
+ st_init5  | 00000100000
+ st_init6  | 00001000000
+ st_init7  | 00010000000
+ st_init8  | 00100000000
+ st_init9  | 01000000000
+ init_done | 10000000000
+--------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# Adders/Subtractors                                   : 3
+ 11-bit adder                                          : 1
+ 17-bit adder                                          : 1
+ 20-bit adder                                          : 1
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 83
+ Flip-Flops                                            : 83
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <demo_leduri> ...
+
+Optimizing unit <lcd_ctrl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block demo_leduri, actual ratio is 3.
+
+Final Macro Processing ...
+
+Processing Unit <demo_leduri> :
+	Found 2-bit shift register for signal <rotary_in_0>.
+	Found 2-bit shift register for signal <rotary_in_1>.
+Unit <demo_leduri> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 139
+ Flip-Flops                                            : 139
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : demo_leduri.ngr
+Top Level Output File Name         : demo_leduri
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+
+Design Statistics
+# IOs                              : 21
+
+Cell Usage :
+# BELS                             : 476
+#      GND                         : 2
+#      INV                         : 7
+#      LUT1                        : 70
+#      LUT2                        : 50
+#      LUT2_D                      : 3
+#      LUT2_L                      : 1
+#      LUT3                        : 28
+#      LUT3_D                      : 3
+#      LUT3_L                      : 10
+#      LUT4                        : 121
+#      LUT4_D                      : 9
+#      LUT4_L                      : 3
+#      MUXCY                       : 81
+#      MUXF5                       : 13
+#      VCC                         : 2
+#      XORCY                       : 73
+# FlipFlops/Latches                : 141
+#      FD                          : 22
+#      FDC                         : 46
+#      FDCE                        : 12
+#      FDE                         : 57
+#      FDP                         : 1
+#      FDPE                        : 2
+#      FDR                         : 1
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 4
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      171  out of   4656     3%  
+ Number of Slice Flip Flops:            141  out of   9312     1%  
+ Number of 4 input LUTs:                307  out of   9312     3%  
+    Number used as logic:               305
+    Number used as Shift registers:       2
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of    232     9%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 143   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.831ns (Maximum Frequency: 113.237MHz)
+   Minimum input arrival time before clock: 5.016ns
+   Maximum output required time after clock: 9.108ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.831ns (frequency: 113.237MHz)
+  Total number of paths / destination ports: 5543 / 161
+-------------------------------------------------------------------------
+Delay:               8.831ns (Levels of Logic = 6)
+  Source:            lcd_ctrl_i/init_cnt_0 (FF)
+  Destination:       lcd_ctrl_i/init_cnt_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: lcd_ctrl_i/init_cnt_0 to lcd_ctrl_i/init_cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.591   0.762  init_cnt_0 (init_cnt_0)
+     LUT4:I0->O            1   0.704   0.424  init_state_cmp_eq00002_SW1 (N31)
+     LUT4:I3->O            5   0.704   0.637  init_state_cmp_eq000111 (N5)
+     LUT4:I3->O            3   0.704   0.610  init_state_cmp_eq0003 (init_state_cmp_eq0003)
+     LUT4:I1->O            2   0.704   0.451  init_cnt_mux0000<0>136 (init_cnt_mux0000<0>136)
+     LUT4_D:I3->O          9   0.704   0.824  init_cnt_mux0000<0>138 (N1)
+     LUT4:I3->O            1   0.704   0.000  init_cnt_mux0000<17>1 (init_cnt_mux0000<17>)
+     FDE:D                     0.308          init_cnt_2
+    ----------------------------------------
+    Total                      8.831ns (5.123ns logic, 3.708ns route)
+                                       (58.0% logic, 42.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 51 / 51
+-------------------------------------------------------------------------
+Offset:              5.016ns (Levels of Logic = 3)
+  Source:            rst (PAD)
+  Destination:       lcd_ctrl_i/init_cnt_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to lcd_ctrl_i/init_cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            62   1.218   1.272  rst_IBUF (rst_IBUF)
+     begin scope: 'lcd_ctrl_i'
+     INV:I->O             48   0.704   1.267  rst_inv1_INV_0 (rst_inv)
+     FDE:CE                    0.555          init_cnt_0
+    ----------------------------------------
+    Total                      5.016ns (2.477ns logic, 2.539ns route)
+                                       (49.4% logic, 50.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 71 / 14
+-------------------------------------------------------------------------
+Offset:              9.108ns (Levels of Logic = 6)
+  Source:            lcd_ctrl_i/displ_state_FSM_FFd5 (FF)
+  Destination:       SF_D<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: lcd_ctrl_i/displ_state_FSM_FFd5 to SF_D<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.591   0.706  displ_state_FSM_FFd5 (displ_state_FSM_FFd5)
+     LUT3:I0->O            1   0.704   0.424  SF_D<1>8_SW0 (N113)
+     LUT4:I3->O            1   0.704   0.455  SF_D<1>8 (SF_D<1>8)
+     LUT4:I2->O            1   0.704   0.424  SF_D<1>26 (SF_D<1>26)
+     LUT4:I3->O            1   0.704   0.420  SF_D<1>81 (SF_D<1>)
+     end scope: 'lcd_ctrl_i'
+     OBUF:I->O                 3.272          SF_D_1_OBUF (SF_D<1>)
+    ----------------------------------------
+    Total                      9.108ns (6.679ns logic, 2.429ns route)
+                                       (73.3% logic, 26.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.38 secs
+ 
+--> 
+
+Total memory usage is 240368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

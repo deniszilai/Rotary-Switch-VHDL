@@ -1,0 +1,5 @@
+set -tmpdir "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/xst/projnav.tmp"
+set -xsthdpdir "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/xst"
+elaborate
+-ifn debounce.prj
+-ifmt mixed

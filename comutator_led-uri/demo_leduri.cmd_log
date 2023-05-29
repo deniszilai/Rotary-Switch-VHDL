@@ -1,0 +1,96 @@
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.xst" -ofn "D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.syr" 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.syr" 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.syr" 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.syr" 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_leduri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4 demo_leduri.ngc demo_leduri.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o demo_leduri_map.ncd demo_leduri.ngd demo_leduri.pcf 
+par -w -intstyle ise -ol high -t 1 demo_leduri_map.ncd demo_leduri.ncd demo_leduri.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demo_leduri.twx demo_leduri.ncd -o demo_leduri.twr demo_leduri.pcf -ucf demo_leduri.ucf 
+bitgen -intstyle ise -f demo_leduri.ut demo_leduri.ncd 
+xst -intstyle ise -ifn "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_leduri.xst" -ofn "C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_leduri.syr" 

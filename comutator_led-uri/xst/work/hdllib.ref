@@ -1,0 +1,8 @@
+AR rot_s behavioral D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_led-uri.vhd sub00/vhpl01 1637523423
+EN rot_s NULL D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/demo_led-uri.vhd sub00/vhpl00 1637523422
+AR debounce behavioral D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/debounce.vhd sub00/vhpl05 1641497057
+EN demo_leduri NULL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd sub00/vhpl02 1641942621
+EN debounce NULL D:/Andrei/Anul_3/Semestrul_I/Structura_Sistemelor_de_Calcul/Proiect-Interfata_pentru_un_comutator_rotativ/comutator_led-uri/debounce.vhd sub00/vhpl04 1641497056
+AR demo_leduri behavioral C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/demo_led-uri.vhd sub00/vhpl03 1641942622
+AR lcd_ctrl behavioral C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd sub00/vhpl07 1641942620
+EN lcd_ctrl NULL C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comutator_led-uri/lcd_ctrl.vhd sub00/vhpl06 1641942619

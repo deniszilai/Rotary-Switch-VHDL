@@ -1,0 +1,29 @@
+Command line:
+   demo_leduri_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58358
+
+Mon Jan 10 05:23:38 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 4687.21 Meg
+
+ Total Signals          : 41
+ Total Nets             : 63
+ Total Signal Drivers   : 12
+ Total Blocks           : 6
+ Total Primitive Blocks : 6
+ Total Processes        : 3
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 564
+Total Line Count : 32
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 4687.21 Meg
+
+Mon Jan 10 06:26:42 2022
+

@@ -1,0 +1,42 @@
+Release 13.4 ngdbuild O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\School\SSC\ISEINSTALL\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc demo_leduri.ucf -p xc3s500e-fg320-4
+demo_leduri.ngc demo_leduri.ngd
+
+Reading NGO file
+"C:/Users/DZ/Desktop/Proiect_Interfata_Comutator_Rotativ_Zilai-Denis-30238/comut
+ator_led-uri/demo_leduri.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "demo_leduri.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <NET "clk" PERIOD = 20.0ns HIGH
+   50%;> [demo_leduri.ucf(1)], is specified using the Net Period method which is
+   not recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 128656 kilobytes
+
+Writing NGD file "demo_leduri.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "demo_leduri.bld"...
